@@ -17,7 +17,7 @@ Field | Description
 **economic** | Item classified by economic size.
 **char** | Item classified by characteristics of holders.
 **size** | Item classified by size.
-**crop** | Itemclassified by crops.
+**crop** | Item classified by crops.
 **stock** | Item classified by stock.
 **dairy** | Item classified by dairy.
 **machine** | Item classified by machinery.
