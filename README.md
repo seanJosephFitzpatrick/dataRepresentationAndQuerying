@@ -6,31 +6,15 @@
 This project provides the design and documentation for the dataset "Census of Agriculture" which is available at [data.gov.ie](http://data.gov.ie)
 
 
-|---------------|------------------------------------------------------------|
-|  **Fields**   |                    **Description**                         |
-|               |                                                            |
-| Type          |                                                            |
-|               |                                                            |
-| Economic      |                                                            |
-|               |                                                            |
-| Char          |                                                            |
-|               |                                                            |
-| Size          |                                                            |
-|               |                                                            |
-| Crop          |                                                            |
-|               |                                                            |
-| Stock         |                                                            |
-|               |                                                            |
-| Dairy         |                                                            |
-|               |                                                            |
-| Machine       |                                                            |
-|               |                                                            |
-| Equipment     |                                                            |
-|               |                                                            |
-| With          |                                                            |
-|               |                                                            |
-| Labour        |                                                            |
-|               |                                                            |
+Field | Description
+------|------------
+**type** | Farms classified by farm type.
+**economic** | Farms classified by economic size.
+**char** | Farms classified by characteristics of holders.
+**size** | Farms classified by farm size.
+**crop** | Farms classified by crops.
+**stock** | Farms classified by stock.
+
 
 
 
