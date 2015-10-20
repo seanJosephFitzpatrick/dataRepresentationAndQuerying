@@ -3,7 +3,7 @@
 ###Sean Fitzpatrick
 
 ## Introduction
-This project provides the design and documentation for the dataset "Census of Agriculture" which is available at [data.gov.ie](http://data.gov.ie)
+This project provides the design and documentation for the dataset "Census of Agriculture" which is available at [Data.gov.ie](http://data.gov.ie)
 
 ## About the data
 This dataset was received in PDF format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/data).
