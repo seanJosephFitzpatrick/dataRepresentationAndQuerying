@@ -8,7 +8,8 @@ This project provides the design and documentation for the dataset "Census of Ag
 ## About the data
 This dataset was received in PDF format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/census-of-agriculture).
 The PDF file contains a total of 46 tables. The tables have been categorized in to eleven data types.
-   - **type**: Table attributes classified by different types of farms in each Province and County.
+   - **Table attributes classified by eleven different types**.
+    - **type**: Table attributes classified by different types of farms in each Province and County.
     - **economic**: Table attributes classified by economic size in each Province and County.
     - **char**: Table attributes classified by characters of holders in each Province and County.
     - **size**: Table attributes classified by size of farms in each Province and County.
