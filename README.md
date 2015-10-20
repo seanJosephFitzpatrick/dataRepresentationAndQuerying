@@ -8,12 +8,17 @@ This project provides the design and documentation for the dataset "Census of Ag
 
 Field | Description
 ------|------------
-**type** | Farms classified by farm type.
-**economic** | Farms classified by economic size.
-**char** | Farms classified by characteristics of holders.
-**size** | Farms classified by farm size.
-**crop** | Farms classified by crops.
-**stock** | Farms classified by stock.
+**type** | Item classified by type.
+**economic** | Item classified by economic size.
+**char** | Item classified by characteristics of holders.
+**size** | Item classified by size.
+**crop** | Itemclassified by crops.
+**stock** | Item classified by stock.
+**dairy** | Item classified by dairy.
+**machine** | Item classified by machinery.
+**equipment** | Item classified by equipment.
+**grazing** | Item classified by grazing.
+**labour** | Item classified by labour.
 
 
 
