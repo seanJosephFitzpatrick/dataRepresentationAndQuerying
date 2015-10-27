@@ -56,4 +56,30 @@ Field | Description
   },
 ]
 
+##API Methods
 
+###Name
+    - **park.getName**
+    - **park.setName**
+###Number
+    - **park.setNumber**
+###Location
+    - **park.getLocation**
+    - **park.setLocation**
+###Hours
+    - **park.getHours**
+    - **park.setOpen**
+    - **park.setClose**
+###Facilities
+    - **park.getFacilities**
+    - **park.setFacilities**
+###Description
+    - **park.getDescription**
+    - **park.setDecription**
+###Latitude
+    - **park.getLatitude**
+    - **park.setLatitude**
+###Longitude
+    - **park.getLongitude**
+    - **park.setLongitude**
+  
