@@ -10,6 +10,7 @@ This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*]
 The CSV file contains 29 rows that can be added to or removed from. It contains 9 column.
    - **Table classified by attribute id**.
     - **ObjectId**: Table attribute clasified by unique id.
+    - **Number**: Table attribute clasified by unique park number.
     - **Name**: Table attributes classified by name of each park.
     - **Location**: Table attributes classified by location of each park.
     - **Facilities**: Table attributes classified by the facilities of each park.
@@ -26,17 +27,32 @@ The CSV file contains 29 rows that can be added to or removed from. It contains 
 Field | Description
 ------|------------
 **ObjectId** | Item Unique Id
-**Name** | Item name
-**Location** | Item location
-**Facilities** | Item facilities
-**Description** | Item description
-**Open** | Item open
-**Close** | Item close
-**AreaOfCity** | Item area
-**Latitude** | Item latitude
-**Longitude** | Item longitude
+**Number** | Item unique Number
+**Name** | Item park name
+**Location** | Item park location
+**Facilities** | Item park facilities
+**Description** | Item park description
+**Open** | Item opening hours
+**Close** | Item closing hours
+**AreaOfCity** | Item park geo area
+**Latitude** | Item park latitude
+**Longitude** | Item park longitude
 
 
-
+[
+  {
+    "OBJECTID":16,
+    "NUMBER":29,
+    "NAME":"Roscam Park",
+    "LOCATION":"Roscam, Galway",
+    "AREAOFCITY":"City- East",
+    "OPENINGHRs":"No restricted opening hours",
+    "FACILITIES":"Pedestrian Walkways, Playgrounds, Tennis Courts, 
+    Basketball Court, 1 Soccer Pitch, 1 5-a-side pitch, Planting areas with",
+    "DESCR":"Local Neighbourhood Park",
+    "Lat":53.274,
+    "Long":-8.994,
+  },
+]
 
 
