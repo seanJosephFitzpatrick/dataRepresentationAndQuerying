@@ -8,36 +8,37 @@ This project provides the design and documentation for the dataset "Parks in Gal
 ## About the data
 This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
 The CSV file contains 29 rows that can be added to or removed from. It contains 9 column.
-   - **Table classified by attribute id**.
-    - **ObjectId**: Table attribute clasified by unique id.
-    - **Number**: Table attribute clasified by unique park number.
-    - **Name**: Table attributes classified by name of each park.
-    - **Location**: Table attributes classified by location of each park.
-    - **Facilities**: Table attributes classified by the facilities of each park.
-    - **Dscription**: Table attributes classified by the description of each park.
-    - **Open**: Table attributes classified by the opening hours of each park.
-    - **Close**: Table attributes classified by the closing hours of each park.
-    - **AreaOfCity**: Table attributes classified by the city area of each park.
-    - **Latitude**: Table attributes classified by the latitude of each park.
-    - **Longitude**: Table attributes classified by longitude of each park.
+   - **Table classified by attribute**.
+    - **ObjectId**: Table attribute unique id.
+    - **Number**: Table attribute unique park number.
+    - **Name**: Table attributes name of park.
+    - **Location**: Table attributes location of each park.
+    - **Facilities**: Table attributes the facilities of each park.
+    - **Dscription**: Table attributes the description of each park.
+    - **Open**: Table attributes the opening hours of each park.
+    - **Close**: Table attributes the closing hours of each park.
+    - **AreaOfCity**: Table attributes the city area of each park.
+    - **Latitude**: Table attributes the latitude of each park.
+    - **Longitude**: Table attributes longitude of each park.
     
 
 ##Item
 
 Field | Description
 ------|------------
-**ObjectId** | Item Unique Id
-**Number** | Item unique Number
-**Name** | Item park name
-**Location** | Item park location
-**Facilities** | Item park facilities
-**Description** | Item park description
-**Open** | Item opening hours
-**Close** | Item closing hours
-**AreaOfCity** | Item park geo area
-**Latitude** | Item park latitude
-**Longitude** | Item park longitude
+**ObjectId** | Item Unique Id (Number)
+**Number** | Item unique Number (Number)
+**Name** | Item park name (Text)
+**Location** | Item park location (Text)
+**Facilities** | Item park facilities (Text)
+**Description** | Item park description (Text)
+**Open** | Item opening hours (Number)
+**Close** | Item closing hours (Number)
+**AreaOfCity** | Item park geo area (Text)
+**Latitude** | Item park latitude (Number)
+**Longitude** | Item park longitude (Number)
 
+#JSON
 
 [
   {
