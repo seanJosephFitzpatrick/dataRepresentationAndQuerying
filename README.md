@@ -3,40 +3,39 @@
 ###Sean Fitzpatrick
 
 ## Introduction
-This project provides the design and documentation for the dataset "Census of Agriculture" which is available at [Data.gov.ie](http://data.gov.ie)
+This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie)
 
 ## About the data
-This dataset was received in PDF format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/census-of-agriculture).
+This dataset was received in PDF format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
 The PDF file contains a total of 46 tables. The tables have been categorized in to eleven data types.
    - **Table classified by eleven different types**.
-    - **type**: Table attributes classified by different types of farms in each Province and County.
-    - **economic**: Table attributes classified by economic size in each Province and County.
-    - **char**: Table attributes classified by characters of holders in each Province and County.
-    - **size**: Table attributes classified by size of farms in each Province and County.
-    - **crop**: Table attributes classified by different crop types in each Province and County.
-    - **stock**: Table attributes classified by different stock in each Province and County.
-    - **dairy**: Table attributes classified by different dairy farms in each Province and County.
-    - **machinery**: Table attributes classified by different types of machinery in each Province and County.
-    - **equipment**: Table attributes classified by different types of equipment in each Province and County.
-    - **grazing**: Table attributes classified by methods of grazing in each Province and County.
-    - **labour**: Table attributes classified by labour used in each Province and County.
-
+    - **ObjectId**: Table attribute clasified by unique id.
+    - **Name**: Table attributes classified by name of each park.
+    - **Location**: Table attributes classified by location of each park.
+    - **Facilities**: Table attributes classified by the facilities of each park.
+    - **Dscription**: Table attributes classified by the description of each park.
+    - **Open**: Table attributes classified by the opening hours of each park.
+    - **Close**: Table attributes classified by the closing hours of each park.
+    - **AreaOfCity**: Table attributes classified by the city area of each park.
+    - **Latitude**: Table attributes classified by the latitude of each park.
+    - **Longitude**: Table attributes classified by longitude of each park.
+    
 
 
 
 Field | Description
 ------|------------
-**type** | Item classified by type.
-**economic** | Item classified by economic size.
-**char** | Item classified by characteristics of holders.
-**size** | Item classified by size.
-**crop** | Item classified by crops.
-**stock** | Item classified by stock.
-**dairy** | Item classified by dairy.
-**machine** | Item classified by machinery.
-**equipment** | Item classified by equipment.
-**grazing** | Item classified by grazing.
-**labour** | Item classified by labour.
+**ObjectId** | Unique Id
+**Name** | Item name
+**Location** | Item location
+**Facilities** | Item facilities
+**Description** | Item description
+**Open** | Item open
+**Close** | Item close
+**AreaOfCity** | Item area
+**Latitude** | Item latitude
+**Longitude** | Item longitude
+
 
 
 
