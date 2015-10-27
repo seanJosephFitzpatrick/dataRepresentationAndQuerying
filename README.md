@@ -3,12 +3,12 @@
 ###Sean Fitzpatrick
 
 ## Introduction
-This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie)
+This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie). This API will be tailored to the front end user that want to check the location, opening/closing hours and facilities of parks local to Galway city and county. Futhermore it will be tailored to the Galway city County Council for adding, deleting and updating park information throughout Galway city and County.
 
 ## About the data
-This dataset was received in PDF format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
-The PDF file contains a total of 46 tables. The tables have been categorized in to eleven data types.
-   - **Table classified by eleven different types**.
+This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
+The CSV file contains 29 rows that can be added to or removed from. It contains 9 column.
+   - **Table classified by attribute id**.
     - **ObjectId**: Table attribute clasified by unique id.
     - **Name**: Table attributes classified by name of each park.
     - **Location**: Table attributes classified by location of each park.
@@ -21,11 +21,11 @@ The PDF file contains a total of 46 tables. The tables have been categorized in 
     - **Longitude**: Table attributes classified by longitude of each park.
     
 
-
+##Item
 
 Field | Description
 ------|------------
-**ObjectId** | Unique Id
+**ObjectId** | Item Unique Id
 **Name** | Item name
 **Location** | Item location
 **Facilities** | Item facilities
