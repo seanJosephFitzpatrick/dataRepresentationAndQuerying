@@ -38,7 +38,8 @@ Field | Description
 **Latitude** | Item park latitude (Number)
 **Longitude** | Item park longitude (Number)
 
-#JSON
+##Querying park information:
+*http://galway.ie/parks/roscam/*
 
 [
   {
