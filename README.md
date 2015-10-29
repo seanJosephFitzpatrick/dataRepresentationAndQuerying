@@ -112,7 +112,7 @@ Display park latitude/longitude details
     
 ###Number
 
-    - **park.setNumber**
+- **park.setNumber**
     
 ###Location
 
