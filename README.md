@@ -38,8 +38,55 @@ Field | Description
 **Latitude** | Item park latitude (Number)
 **Longitude** | Item park longitude (Number)
 
-##Querying park information:
+##URL's
+**Galway County Council**
+*http://galway.ie/*
+Display Galway County Council home page
+
+
+**Galway county Parks**
+*http://galway.ie/parks/*
+Dispaly Galway County Council Parks home page
+
+
+**Roscam park**
 *http://galway.ie/parks/roscam/*
+Display Roscam Park information details
+
+- **Location**: Name of townland, town that park resides in
+- **Facilities**: List of all facilities available on site
+- **Description**: Description of what kind of park, Neighborhood - City park
+- **Opening/Closing hours**: List of parks known opening/closing hours
+- **Area of the city**: Geographical map of the parks location with in the city
+- **Latitude and Longitude**: Latituade and longitude of the park
+
+
+**Park location**
+*http://galway.ie/parks/roscam/location*
+Display park location details
+
+**Park facilities**
+*http://galway.ie/parks/roscam/facilities*
+Display park facilities details
+
+**Park description**
+*http://galway.ie/parks/roscam/description*
+Display park description details
+
+**Park opening/closing**
+*http://galway.ie/parks/roscam/opening/closing*
+Display park opening/closing details
+
+**Park areaOfCity**
+*http://galway.ie/parks/roscam/areaOfCity*
+Display park areaOfCity details
+
+**Park latitude/longitude**
+*http://galway.ie/parks/roscam/latitude/longitude*
+Display park latitude/longitude details
+
+
+##JSON
 
 [
   {
@@ -59,27 +106,42 @@ Field | Description
 ##API Methods
 
 ###Name
-    - **park.getName**
-    - **park.setName**
+
+- **park.getName**
+- **park.setName**
+    
 ###Number
+
     - **park.setNumber**
+    
 ###Location
-    - **park.getLocation**
-    - **park.setLocation**
+
+- **park.getLocation**
+- **park.setLocation**
+    
 ###Hours
-    - **park.getHours**
-    - **park.setOpen**
-    - **park.setClose**
+
+- **park.getHours**
+- **park.setOpen**
+- **park.setClose**
+    
 ###Facilities
-    - **park.getFacilities**
-    - **park.setFacilities**
+
+- **park.getFacilities**
+- **park.setFacilities**
+    
 ###Description
-    - **park.getDescription**
-    - **park.setDecription**
+
+- **park.getDescription**
+- **park.setDecription**
+    
 ###Latitude
-    - **park.getLatitude**
-    - **park.setLatitude**
+
+- **park.getLatitude**
+- **park.setLatitude**
+    
 ###Longitude
-    - **park.getLongitude**
-    - **park.setLongitude**
+
+- **park.getLongitude**
+- **park.setLongitude**
   
