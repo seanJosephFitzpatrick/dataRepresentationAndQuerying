@@ -87,6 +87,7 @@ Display park latitude/longitude details
 
 
 ##JSON
+**All requests are sent in JSON format**
 
 [
   {
@@ -107,8 +108,8 @@ Display park latitude/longitude details
 
 ###Name
 
-- **park.getName**
-- **park.setName**
+- **park.getName** // Retrieves the park name
+- **park.setName**: Set the park name
     
 ###Number
 
