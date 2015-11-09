@@ -26,16 +26,16 @@ The CSV file contains 29 rows that can be added to or removed from. It contains 
 
 Field | Value 
 ------|------------
-**ObjectId** | Unique Id (Number)
-**Number** | Unique Number (Number)
-**Name** | Parks name (Text)
-**Location** | Parks location (Text)
-**AreaOfCity** | Park geo area (Text)
-**Open** | Opening hours (Number)
-**Facilities** | Parks facilities (Text)
-**Description** | Parks description (Text)
-**Latitude** | Parks latitude (Number)
-**Longitude** | Parks longitude (Number)
+**OBJECTID** | Unique Id (Number)
+**NUMBER** | Unique Number (Number)
+**NAME** | Parks name (Text)
+**LOCATION** | Parks location (Text)
+**AREAOFCITY** | Park geo area (Text)
+**OPENINGHRs** | Opening hours (Number)
+**FACILITIES** | Parks facilities (Text)
+**DESCR** | Parks description (Text)
+**Lat** | Parks latitude (Number)
+**Long** | Parks longitude (Number)
 **EastITM** | International Mapping (Number)
 **NorthITM** | International Mapping (Number)
 **EastIG** | Mapping (Number)
@@ -50,9 +50,9 @@ Field | Value
 **parks** | Path   
 **25647** | Parameter  
 
-**JSON Results by OBJECTID** 
-...json
-  {      
+**JSON Results by OBJECTID**     
+``` json   
+  [{      
     "OBJECTID":"25647",   
     "NUMBER":"1",   
     "NAME":"Corrib Park",   
@@ -67,8 +67,8 @@ Field | Value
     "NorthITM":"725961.154",   
     "EastIG":"128361.999",   
     "NorthIG":"225932.124"   
-  },    
-  ...
+  },]       
+  ```
 
 
 ##HTTP Request Methods   
@@ -81,9 +81,9 @@ Field | Value
 Where [Name] is used to search for park   
 *http://galway.ie/parks/[Shantalla/Park]*   
 
-###JSON results
-
-[  {      
+**JSON Results by NAME** 
+```json   
+[{      
     "OBJECTID":"45826",   
     "NUMBER":"8",   
     "NAME":"Shantalla Park",   
@@ -98,7 +98,8 @@ Where [Name] is used to search for park
     "NorthITM":"725961.154",   
     "EastIG":"128361.999",   
     "NorthIG":"225932.124"   
-  },    ]
+  },]   
+  ```
 
 ##API Methods
 
