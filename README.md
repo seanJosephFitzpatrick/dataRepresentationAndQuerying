@@ -50,8 +50,9 @@ Field | Value
 **parks** | Path   
 **25647** | Parameter  
 
-**JSON Results by OBJECTID**   
-[  {      
+**JSON Results by OBJECTID** 
+...json
+  {      
     "OBJECTID":"25647",   
     "NUMBER":"1",   
     "NAME":"Corrib Park",   
@@ -66,7 +67,8 @@ Field | Value
     "NorthITM":"725961.154",   
     "EastIG":"128361.999",   
     "NorthIG":"225932.124"   
-  },    ]
+  },    
+  ...
 
 
 ##HTTP Request Methods   
