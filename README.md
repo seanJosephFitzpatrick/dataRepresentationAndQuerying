@@ -71,9 +71,13 @@ Field | Value
   ```
 
 
-##HTTP Request Methods   
+##HTTP Request Methods  
+
 **GET** | Retrieve information from the server  
-**POST** | Send data to the server   
+**HEAD** | Retrieve response header   
+**POST** | Send data to the server       
+**PUT** |   Set the data at the URI to the request data   
+**DELETE** |   Delete the data at the URI
 
 
 ###Searching for park by name  
