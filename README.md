@@ -24,85 +24,48 @@ The CSV file contains 29 rows that can be added to or removed from. It contains 
 
 ##Item
 
-Field | Description
+Field | Value 
 ------|------------
-**ObjectId** | Item Unique Id (Number)
-**Number** | Item unique Number (Number)
-**Name** | Item park name (Text)
-**Location** | Item park location (Text)
-**Facilities** | Item park facilities (Text)
-**Description** | Item park description (Text)
-**Open** | Item opening hours (Number)
-**Close** | Item closing hours (Number)
-**AreaOfCity** | Item park geo area (Text)
-**Latitude** | Item park latitude (Number)
-**Longitude** | Item park longitude (Number)
+Field 1 | **ObjectId** | Unique Id (Number)
+Field 2 | **Number** | Unique Number (Number)
+Field 3 | **Name** | Park name (Text)
+Field 4 | **Location** | Park location (Text)
+Field 5 | **AreaOfCity** | Park geo area (Text)
+Field 6 | **Open** | Opening hours (Number)
+Field 7 | **Facilities** | Park facilities (Text)
+Field 8 | **Description** | Park description (Text)
+Field 9 | **Latitude** | Park latitude (Number)
+Field 10 | **Longitude** | Park longitude (Number)
+Field 11 | **EastITM** | Mapping (Number)
+Field 12 | **NorthITM** | Mapping (Number)
+Field 13 | **EastIG** | Mapping (Number)
+Field 14 | **EastIG** | Mapping (Number)
 
 ##URL's
-**Galway County Council**
-*http://galway.ie/*
-Display Galway County Council home page
 
+###Location   
+*http://galway.ie/parks/[Location]*   
+Where location is replaced with location   
+*http://galway.ie/parks/Corrib Park*
 
-**Galway county Parks**
-*http://galway.ie/parks/*
-Dispaly Galway County Council Parks home page
+###JSON
 
-
-**Roscam park**
-*http://galway.ie/parks/roscam/*
-Display Roscam Park information details
-
-- **Location**: Name of townland, town that park resides in
-- **Facilities**: List of all facilities available on site
-- **Description**: Description of what kind of park, Neighborhood - City park
-- **Opening/Closing hours**: List of parks known opening/closing hours
-- **Area of the city**: Geographical map of the parks location with in the city
-- **Latitude and Longitude**: Latituade and longitude of the park
-
-
-**Park location**
-*http://galway.ie/parks/roscam/location*
-Display park location details
-
-**Park facilities**
-*http://galway.ie/parks/roscam/facilities*
-Display park facilities details
-
-**Park description**
-*http://galway.ie/parks/roscam/description*
-Display park description details
-
-**Park opening/closing**
-*http://galway.ie/parks/roscam/opening/closing*
-Display park opening/closing details
-
-**Park areaOfCity**
-*http://galway.ie/parks/roscam/areaOfCity*
-Display park areaOfCity details
-
-**Park latitude/longitude**
-*http://galway.ie/parks/roscam/latitude/longitude*
-Display park latitude/longitude details
-
-
-##JSON
-**All requests are sent in JSON format**
-
-[
-  {
-    "OBJECTID":16,
-    "NUMBER":29,
-    "NAME":"Roscam Park",
-    "LOCATION":"Roscam, Galway",
-    "AREAOFCITY":"City- East",
-    "OPENINGHRs":"No restricted opening hours",
-    "FACILITIES":"Pedestrian Walkways, Playgrounds, Tennis Courts, Basketball Court, 1 Soccer Pitch, 1 5-a-side pitch, Planting areas with",
-    "DESCR":"Local Neighbourhood Park",
-    "Lat":53.274,
-    "Long":-8.994,
-  },
-]
+[  {
+    "FIELD1":"1",
+    "FIELD2":"1",
+    "FIELD3":"Corrib Park",
+    "FIELD4":"Newcastle, Galway",
+    "FIELD5":"City- West",
+    "FIELD6":"No restricted opening hours",
+    "FIELD7":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",
+    "FIELD8":"Local Neighbourhood Park",
+    "FIELD9":"53.279",
+    "FIELD10":"-9.075",
+    "FIELD11":"528328.238",
+    "FIELD12":"725961.154",
+    "FIELD13":"128361.999",
+    "FIELD14":"225932.124"
+  },]
 
 ##API Methods
 
