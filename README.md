@@ -26,20 +26,20 @@ The CSV file contains 29 rows that can be added to or removed from. It contains 
 
 Field | Value 
 ------|------------
-Field 1 | **ObjectId** | Unique Id (Number)
-Field 2 | **Number** | Unique Number (Number)
-Field 3 | **Name** | Park name (Text)
-Field 4 | **Location** | Park location (Text)
-Field 5 | **AreaOfCity** | Park geo area (Text)
-Field 6 | **Open** | Opening hours (Number)
-Field 7 | **Facilities** | Park facilities (Text)
-Field 8 | **Description** | Park description (Text)
-Field 9 | **Latitude** | Park latitude (Number)
-Field 10 | **Longitude** | Park longitude (Number)
-Field 11 | **EastITM** | Mapping (Number)
-Field 12 | **NorthITM** | Mapping (Number)
-Field 13 | **EastIG** | Mapping (Number)
-Field 14 | **EastIG** | Mapping (Number)
+**ObjectId** | Unique Id (Number)
+**Number** | Unique Number (Number)
+**Name** | Parks name (Text)
+**Location** | Parks location (Text)
+**AreaOfCity** | Park geo area (Text)
+**Open** | Opening hours (Number)
+**Facilities** | Parks facilities (Text)
+**Description** | Parks description (Text)
+**Latitude** | Parks latitude (Number)
+**Longitude** | Parks longitude (Number)
+**EastITM** | International Mapping (Number)
+**NorthITM** | International Mapping (Number)
+**EastIG** | Mapping (Number)
+**EastIG** | Mapping (Number)
 
 ##URL's
 
