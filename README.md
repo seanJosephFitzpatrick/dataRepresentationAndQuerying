@@ -1,4 +1,4 @@
-# Project Title
+# Galway Parks API
 ## Data Representation and Querying Project 2015
 ###Sean Fitzpatrick
 
@@ -8,7 +8,7 @@ This project provides the design and documentation for the dataset "Parks in Gal
 ## About the data
 This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
 The CSV file contains 29 rows that can be added to or removed from. It contains 9 column.
-   - **Table classified by attribute**.
+   - **Dataset Fields**.
     - **ObjectId**: Table attribute unique id.
     - **Number**: Table attribute unique park number.
     - **Name**: Table attributes name of park.
@@ -43,29 +43,29 @@ Field | Value
 
 ##URL's
 
-###Location   
-*http://galway.ie/parks/[Location]*   
-Where location is replaced with location   
-*http://galway.ie/parks/Corrib Park*
+###Names  
+*http://galway.ie/parks/[Name]*   
+Where name is used to search for park   
+*http://galway.ie/parks/[Corrib Park]*   
 
-###JSON
+###JSON results
 
-[  {
-    "FIELD1":"1",
-    "FIELD2":"1",
-    "FIELD3":"Corrib Park",
-    "FIELD4":"Newcastle, Galway",
-    "FIELD5":"City- West",
-    "FIELD6":"No restricted opening hours",
-    "FIELD7":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",
-    "FIELD8":"Local Neighbourhood Park",
-    "FIELD9":"53.279",
-    "FIELD10":"-9.075",
-    "FIELD11":"528328.238",
-    "FIELD12":"725961.154",
-    "FIELD13":"128361.999",
-    "FIELD14":"225932.124"
-  },]
+[  {      
+    "OBJECTID":"1",   
+    "NUMBER":"1",   
+    "NAME":"Corrib Park",   
+    "LOCATION":"Newcastle, Galway",   
+    "AREAOFCITY":"City- West",   
+    "OPENINGHRs":"No restricted opening hours",   
+    "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
+    "DESCR":"Local Neighbourhood Park",   
+    "Lat":"53.279",   
+    "Long":"-9.075",   
+    "EastITM":"528328.238",   
+    "NorthITM":"725961.154",   
+    "EastIG":"128361.999",   
+    "NorthIG":"225932.124"   
+  },    ]
 
 ##API Methods
 
