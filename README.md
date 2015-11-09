@@ -2,7 +2,7 @@
 ## Data Representation and Querying Project 2015
 ###Sean Fitzpatrick
 
-## Introduction
+## Introduction    
 This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie). This API will be tailored to the front end user that want to check the location, opening/closing hours and facilities of parks local to Galway city and county. Futhermore it will be tailored to the Galway city County Council for adding, deleting and updating park information throughout Galway city and County.
 
 ## About the data
@@ -42,13 +42,16 @@ Field | Value
 **EastIG** | Mapping (Number)
 
 ##Uniform Resource Locator     
-*http://galway.ie/parks/25647/*  
+*http://galway.ie/parks/25647/*   
+
+url | Component   
+-----------|-----------     
 **http** | Protocol   
 **80** | Port   
 **www** | Subdomain   
 **galway.ie** | Domain   
 **parks** | Path   
-**25647** | Parameter  
+**25647** | Parameter     
 
 **JSON Results by OBJECTID**     
 ``` json   
@@ -72,12 +75,13 @@ Field | Value
 
 
 ##HTTP Request Methods  
-
+Method | Definitions
+--------|--------------------------------
 **GET** | Retrieve information from the server  
 **HEAD** | Retrieve response header   
 **POST** | Send data to the server       
-**PUT** |   Set the data at the URI to the request data   
-**DELETE** |   Delete the data at the URI
+**PUT** | Set the data at the URI to the request data   
+**DELETE** | Delete the data at the URI
 
 
 ###Searching for park by name  
