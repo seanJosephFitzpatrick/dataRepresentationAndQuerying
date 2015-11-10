@@ -24,15 +24,12 @@ Field | Value | Field | Value
 ##Uniform Resource Locator     
 *http://galway.ie/parks/25647/*   
 
-url | Component   
------------|-----------     
-**http** | Protocol   
-**80** | Port   
-**www** | Subdomain   
-**galway.ie** | Domain   
-**parks** | Path   
-**25647** | Parameter     
-
+Url | Component | Url | Component
+-----------|----------|----------|-----------        
+**http** | Protocol | **galway.ie** | Domain     
+**80** | Port | **parks** | Path     
+**www** | Subdomain | **25647** | Parameter       
+  
 **JSON Results by OBJECTID**     
 ```json   
   [{      
