@@ -22,7 +22,7 @@ The CSV file contains 29 rows that can be added to or removed from. It contains 
     - **Longitude**: Table attributes longitude of each park.
     
 
-##Item
+##Field/Value
 
 Field | Value | Field | Value
 ------|---------|---------|-----------
