@@ -8,19 +8,6 @@ This project provides the design and documentation for the dataset "Parks in Gal
 ## About the data
 This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
 The CSV file contains 29 rows that can be added to or removed from. It contains 9 column.
-   - **Dataset Fields**.
-    - **ObjectId**: Table attribute unique id.
-    - **Number**: Table attribute unique park number.
-    - **Name**: Table attributes name of park.
-    - **Location**: Table attributes location of each park.
-    - **Facilities**: Table attributes the facilities of each park.
-    - **Dscription**: Table attributes the description of each park.
-    - **Open**: Table attributes the opening hours of each park.
-    - **Close**: Table attributes the closing hours of each park.
-    - **AreaOfCity**: Table attributes the city area of each park.
-    - **Latitude**: Table attributes the latitude of each park.
-    - **Longitude**: Table attributes longitude of each park.
-    
 
 ##Field/Value
 
