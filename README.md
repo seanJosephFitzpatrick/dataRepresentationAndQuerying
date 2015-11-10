@@ -24,22 +24,15 @@ The CSV file contains 29 rows that can be added to or removed from. It contains 
 
 ##Item
 
-Field | Value 
-------|------------
-**OBJECTID** | Unique Id (Number)
-**NUMBER** | Unique Number (Number)
-**NAME** | Parks name (Text)
-**LOCATION** | Parks location (Text)
-**AREAOFCITY** | Park geo area (Text)
-**OPENINGHRs** | Opening hours (Number)
-**FACILITIES** | Parks facilities (Text)
-**DESCR** | Parks description (Text)
-**Lat** | Parks latitude (Number)
-**Long** | Parks longitude (Number)
-**EastITM** | International Mapping (Number)
-**NorthITM** | International Mapping (Number)
-**EastIG** | Mapping (Number)
-**EastIG** | Mapping (Number)
+Field | Value | Field | Value
+------|---------|---------|-----------
+**OBJECTID** | Unique Id (Number) | **DESCR** | Parks description (Text)
+**NUMBER** | Unique Number (Number) | **Lat** | Parks latitude (Number)
+**NAME** | Parks name (Text) | **Long** | Parks longitude (Number)
+**LOCATION** | Parks location (Text) | **EastITM** | International Mapping (Number)
+**AREAOFCITY** | Park geo area (Text) | **NorthITM** | International Mapping (Number)
+**OPENINGHRs** | Opening hours (Number) | **EastIG** | Mapping (Number)
+**FACILITIES** | Parks facilities (Text) | **EastIG** | Mapping (Number)
 
 ##Uniform Resource Locator     
 *http://galway.ie/parks/25647/*   
