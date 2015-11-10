@@ -30,27 +30,6 @@ Url | Component | Url | Component
 **80** | Port | **parks** | Path     
 **www** | Subdomain | **25647** | Parameter       
   
-**JSON Results by OBJECTID**     
-```json   
-  [{      
-    "OBJECTID":"25647",   
-    "NUMBER":"1",   
-    "NAME":"Corrib Park",   
-    "LOCATION":"Newcastle, Galway",   
-    "AREAOFCITY":"City- West",   
-    "OPENINGHRs":"No restricted opening hours",   
-    "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
-    "DESCR":"Local Neighbourhood Park",   
-    "Lat":"53.279",   
-    "Long":"-9.075",   
-    "EastITM":"528328.238",   
-    "NorthITM":"725961.154",   
-    "EastIG":"128361.999",   
-    "NorthIG":"225932.124"   
-  },]       
-  ```
-
-
 ##HTTP Request Methods  
 Method | Definitions
 --------|--------------------------------
@@ -85,46 +64,24 @@ Where [Name] is used to search for park
     "NorthIG":"225932.124"   
   },]   
   ```
-
-##API Methods
-
-###Name
-
-- **park.getName** // Retrieves the park name
-- **park.setName**: Set the park name
-    
-###Number
-
-- **park.setNumber**
-    
-###Location
-
-- **park.getLocation**
-- **park.setLocation**
-    
-###Hours
-
-- **park.getHours**
-- **park.setOpen**
-- **park.setClose**
-    
-###Facilities
-
-- **park.getFacilities**
-- **park.setFacilities**
-    
-###Description
-
-- **park.getDescription**
-- **park.setDecription**
-    
-###Latitude
-
-- **park.getLatitude**
-- **park.setLatitude**
-    
-###Longitude
-
-- **park.getLongitude**
-- **park.setLongitude**
   
+  
+  **JSON Results by OBJECTID**     
+```json   
+  [{      
+    "OBJECTID":"25647",   
+    "NUMBER":"1",   
+    "NAME":"Corrib Park",   
+    "LOCATION":"Newcastle, Galway",   
+    "AREAOFCITY":"City- West",   
+    "OPENINGHRs":"No restricted opening hours",   
+    "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
+    "DESCR":"Local Neighbourhood Park",   
+    "Lat":"53.279",   
+    "Long":"-9.075",   
+    "EastITM":"528328.238",   
+    "NorthITM":"725961.154",   
+    "EastIG":"128361.999",   
+    "NorthIG":"225932.124"   
+  },]       
+  ```
