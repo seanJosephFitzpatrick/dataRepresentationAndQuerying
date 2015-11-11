@@ -59,8 +59,6 @@ GET http://galway.ie/parks/ShantallaPark
 **JSON** 
 ```json   
 [{      
-    "OBJECTID":"45826",   
-    "NUMBER":"8",   
     "NAME":"Shantalla Park",   
     "LOCATION":"Newcastle, Galway",   
     "AREAOFCITY":"City- West",   
