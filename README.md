@@ -39,6 +39,11 @@ Method | Definitions
 **PUT** | Set the data at the URI to the request data   
 **DELETE** | Delete the data at the URI
 
+##Status Code Definitions
+Code | Definition
+------|--------
+**200** | ok
+
 
 ###Searching for park by name  
 *http://galway.ie/parks/[Name]*   
