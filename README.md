@@ -107,13 +107,10 @@ admin/password?username=USERNAME | POST
 ```
 
 
-###HTTP Requst by object id 
+###HTTP Requst by admin using object id 
 GET http://galway.ie/parks/25647  
 ###HTTP Response   
 **JSON** 
-  
-  
-  **JSON Results by OBJECTID**     
 ```json   
   [{      
     "OBJECTID":"25647",   
