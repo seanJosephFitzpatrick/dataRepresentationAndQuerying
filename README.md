@@ -40,9 +40,11 @@ Method | Definitions
 **DELETE** | Delete the data at the URI
 
 ##Status Code Definitions
-Code | Definition
-------|--------
-**200** | ok
+Code | Definition | Code | Definition     
+------|--------|--------|----------      
+**200** | Ok | **202** | Accepted    
+**400** | Bad Request | **404** | Not Found    
+**405** | Method Not Allowed | **503** | Service Unavaiable   
 
 
 ###Searching for park by name  
