@@ -53,7 +53,7 @@ The dataset can be queried using the  HTTP rerequest methods and the URL. The HT
 where you replace [Name] with the Name.  
 *http://galway.ie/parks/ShantallaPark*   
 
-###HTTP RequsT by Name
+###HTTP Requst by Name
 GET http://galway.ie/parks/ShantallaPark   
 ###HTTP Response   
 **JSON** 
