@@ -47,12 +47,16 @@ Code | Definition | Code | Definition
 **405** | Method Not Allowed | **503** | Service Unavaiable   
 
 
-###Searching for park by name  
+###Querying the Dataset.  
+The dataset can be queried using the  HTTP rerequest methods and the URL. The HTTP response will return to the user in JSON format. Below is an example of a HTTP response where the JSON object containing the park name that the HTTP request method was querying.
 *http://galway.ie/parks/[Name]*   
-Where [Name] is used to search for park   
-*http://galway.ie/parks/[Shantalla/Park]*   
+where you replace [Name] with the Name.  
+*http://galway.ie/parks/ShantallaPark*   
 
-**JSON Results by NAME** 
+###HTTP RequsT by Name
+GET http://galway.ie/parks/ShantallaPark   
+###HTTP Response   
+**JSON** 
 ```json   
 [{      
     "OBJECTID":"45826",   
@@ -71,6 +75,44 @@ Where [Name] is used to search for park
     "NorthIG":"225932.124"   
   },]   
   ```
+  
+###Admin Users
+The admin user will need to query, update and delete from the dataset using the HTTP methods and URL. 
+
+**Create the admin user**
+
+URI | Method    
+----|-------    
+admin | POST    
+```json
+{
+   "name" : "my_username",
+   "first-name" : "My",
+   "last-name" : "Username",
+   "display-name" : "My Username",
+   "email" : "user@example.test",
+   "password" : {
+      "value" : "my_password"
+   },
+   "active" : true
+}
+```
+**Setting admin password**
+
+URI | Method    
+----|-------    
+admin/password?username=USERNAME | POST   
+```json
+{
+   "value" : "new_password"
+}
+```
+
+
+###HTTP Requst by object id 
+GET http://galway.ie/parks/25647  
+###HTTP Response   
+**JSON** 
   
   
   **JSON Results by OBJECTID**     
