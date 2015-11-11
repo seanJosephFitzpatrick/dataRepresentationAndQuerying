@@ -7,7 +7,7 @@ This project provides the design and documentation for the dataset "Parks in Gal
 
 ## About the data
 This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
-The CSV file contains 29 rows that can be added to or removed from. It contains 9 column.
+The CSV file contains 29 rows that can be added to or removed from, the first being a header row with the names of each field. It contains 9 column.
 
 ##Field/Value
 
