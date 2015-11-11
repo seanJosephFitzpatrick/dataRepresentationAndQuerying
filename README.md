@@ -85,10 +85,10 @@ admin | POST
 ```json
 {
    "name" : "my_username",
-   "first-name" : "My",
-   "last-name" : "Username",
-   "display-name" : "My Username",
-   "email" : "user@example.test",
+   "first-name" : "First",
+   "last-name" : "Last",
+   "display-name" : "First Last",
+   "email" : "admin@example.com",
    "password" : {
       "value" : "my_password"
    },
