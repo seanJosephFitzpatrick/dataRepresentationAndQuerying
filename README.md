@@ -108,7 +108,7 @@ admin/password?username=USERNAME | POST
 
 
 ###HTTP Requst by admin using object id 
-GET http://galway.ie/parks/25647  
+GET http://admin:password@galway.ie/parks/25647  
 ###HTTP Response   
 **JSON** 
 ```json   
