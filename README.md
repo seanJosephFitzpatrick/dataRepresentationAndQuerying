@@ -48,15 +48,12 @@ Code | Definition | Code | Definition
 
 
 ###Querying the Dataset.  
-The dataset can be queried using the  HTTP rerequest methods and the URL. The HTTP response will return to the user in JSON format. Below is an example of a HTTP response where the JSON object containing the park name that the HTTP request method was querying.
-<http://galway.ie/parks/[Name]>  
+The dataset can be queried using the  HTTP rerequest methods and the URL. The HTTP response will return to the user in JSON format. Below is an example of a HTTP response where the JSON object containing the park name that the HTTP request method was querying.<http://galway.ie/parks/[Name]>  
 where you replace [Name] with the Name.  
 <http://galway.ie/parks/ShantallaPark>   
 
-###HTTP Requst by Name
 GET <http://galway.ie/parks/ShantallaPark>   
-###HTTP Response   
-**JSON** 
+###HTTP Response JSON     
 ```json   
 [{      
     "NAME":"Shantalla Park",   
