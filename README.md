@@ -147,7 +147,10 @@ POST <http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed>
     "NorthIG":"225932.124"   
   },]       
   ```
-####HTTP Response      
+####HTTP Response  
+```json
+ok:true
+```
 ```json   
   [{      
     "OBJECTID":"25647",   
