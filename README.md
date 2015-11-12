@@ -108,22 +108,22 @@ admin/password?username=USERNAME | POST
 GET <http://admin/password@galway.ie/parks/25647>  
 ####HTTP Response JSON    
 ```json   
-  [{      
-    "OBJECTID":"25647",   
-    "NUMBER":"1",   
-    "NAME":"Corrib Park",   
-    "LOCATION":"Newcastle, Galway",   
-    "AREAOFCITY":"City- West",   
-    "OPENINGHRs":"No restricted opening hours",   
-    "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
-    "DESCR":"Local Neighbourhood Park",   
-    "Lat":"53.279",   
-    "Long":"-9.075",   
-    "EastITM":"528328.238",   
-    "NorthITM":"725961.154",   
-    "EastIG":"128361.999",   
-    "NorthIG":"225932.124"   
-  },]       
+  [ {...} {      
+          "OBJECTID":"25647",   
+          "NUMBER":"1",   
+          "NAME":"Corrib Park",   
+          "LOCATION":"Newcastle, Galway",   
+          "AREAOFCITY":"City- West",   
+          "OPENINGHRs":"No restricted opening hours",   
+          "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
+          "DESCR":"Local Neighbourhood Park",   
+          "Lat":"53.279",   
+          "Long":"-9.075",   
+          "EastITM":"528328.238",   
+          "NorthITM":"725961.154",   
+          "EastIG":"128361.999",   
+          "NorthIG":"225932.124"   
+          }, {...} ]       
   ```
   
 ##HTTP Requst by admin using POST method 
