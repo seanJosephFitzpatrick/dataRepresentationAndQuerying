@@ -107,7 +107,7 @@ admin/password?username=USERNAME | POST
 ```
 
 
-###HTTP Requst by admin using object id 
+###HTTP Requst by admin using GET method 
 GET http://admin/password@galway.ie/parks/25647  
 ###HTTP Response   
 **JSON** 
@@ -119,6 +119,49 @@ GET http://admin/password@galway.ie/parks/25647
     "LOCATION":"Newcastle, Galway",   
     "AREAOFCITY":"City- West",   
     "OPENINGHRs":"No restricted opening hours",   
+    "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
+    "DESCR":"Local Neighbourhood Park",   
+    "Lat":"53.279",   
+    "Long":"-9.075",   
+    "EastITM":"528328.238",   
+    "NorthITM":"725961.154",   
+    "EastIG":"128361.999",   
+    "NorthIG":"225932.124"   
+  },]       
+  ```
+  
+###HTTP Requst by admin using POST method 
+POST http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed 
+###HTTP POST 
+**JSON object before update** 
+```json   
+  [{      
+    "OBJECTID":"25647",   
+    "NUMBER":"1",   
+    "NAME":"Corrib Park",   
+    "LOCATION":"Newcastle, Galway",   
+    "AREAOFCITY":"City- West",   
+    "OPENINGHRs":"No restricted opening hours",   
+    "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
+    "DESCR":"Local Neighbourhood Park",   
+    "Lat":"53.279",   
+    "Long":"-9.075",   
+    "EastITM":"528328.238",   
+    "NorthITM":"725961.154",   
+    "EastIG":"128361.999",   
+    "NorthIG":"225932.124"   
+  },]       
+  ```
+##HTTP Response      
+**JSON object after update**
+```json   
+  [{      
+    "OBJECTID":"25647",   
+    "NUMBER":"1",   
+    "NAME":"Corrib Park",   
+    "LOCATION":"Newcastle, Galway",   
+    "AREAOFCITY":"City- West",   
+    "OPENINGHRs":"Closed",   
     "FACILITIES":"Passive Recreational Walkways, 3G Artificial Surface Pitch, Multi- Use Games Area(MUGA), Planting areas with flowers, sh",   
     "DESCR":"Local Neighbourhood Park",   
     "Lat":"53.279",   
