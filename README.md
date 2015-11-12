@@ -9,7 +9,7 @@ This project provides the design and documentation for the dataset "Parks in Gal
 This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
 The CSV file contains 29 rows that can be added to or removed from, the first being a header row with the names of each field. It contains 9 column.
 
-##Field/Value
+##Table Field-Values
 
 Field | Value | Field | Value
 ------|---------|---------|-----------
@@ -22,7 +22,7 @@ Field | Value | Field | Value
 **FACILITIES** | Parks facilities (Text) | **EastIG** | Mapping (Number)
 
 ##Uniform Resource Locator     
-*http://galway.ie/parks/25647/*   
+<http://galway.ie/parks/25647>   
 
 Url | Component | Url | Component
 -----------|----------|----------|-----------        
@@ -49,12 +49,12 @@ Code | Definition | Code | Definition
 
 ###Querying the Dataset.  
 The dataset can be queried using the  HTTP rerequest methods and the URL. The HTTP response will return to the user in JSON format. Below is an example of a HTTP response where the JSON object containing the park name that the HTTP request method was querying.
-*http://galway.ie/parks/[Name]*   
+<http://galway.ie/parks/[Name]>  
 where you replace [Name] with the Name.  
-*http://galway.ie/parks/ShantallaPark*   
+<http://galway.ie/parks/ShantallaPark>   
 
 ###HTTP Requst by Name
-GET http://galway.ie/parks/ShantallaPark   
+GET <http://galway.ie/parks/ShantallaPark>   
 ###HTTP Response   
 **JSON** 
 ```json   
@@ -108,9 +108,8 @@ admin/password?username=USERNAME | POST
 
 
 ###HTTP Requst by admin using GET method 
-GET http://admin/password@galway.ie/parks/25647  
-###HTTP Response   
-**JSON** 
+GET <http://admin/password@galway.ie/parks/25647>  
+###HTTP Response JSON    
 ```json   
   [{      
     "OBJECTID":"25647",   
@@ -131,9 +130,8 @@ GET http://admin/password@galway.ie/parks/25647
   ```
   
 ###HTTP Requst by admin using POST method 
-POST http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed 
-###HTTP POST 
-**JSON object before update** 
+POST <http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed> 
+###HTTP POST JSON    
 ```json   
   [{      
     "OBJECTID":"25647",   
