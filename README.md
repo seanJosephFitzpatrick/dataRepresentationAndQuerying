@@ -71,7 +71,7 @@ GET <http://galway.ie/parks/ShantallaPark>
   },]   
   ```
   
-###Admin Users
+#Admin Users
 The admin user will need to query, update and delete from the dataset using the HTTP methods and URL. 
 
 **Create the admin user**
@@ -104,9 +104,9 @@ admin/password?username=USERNAME | POST
 ```
 
 
-###HTTP Requst by admin using GET method 
+##HTTP Requst by admin using GET method 
 GET <http://admin/password@galway.ie/parks/25647>  
-###HTTP Response JSON    
+####HTTP Response JSON    
 ```json   
   [{      
     "OBJECTID":"25647",   
@@ -126,9 +126,9 @@ GET <http://admin/password@galway.ie/parks/25647>
   },]       
   ```
   
-###HTTP Requst by admin using POST method 
+##HTTP Requst by admin using POST method 
 POST <http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed> 
-###HTTP POST JSON    
+####HTTP POST JSON    
 ```json   
   [{      
     "OBJECTID":"25647",   
@@ -147,8 +147,7 @@ POST <http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed>
     "NorthIG":"225932.124"   
   },]       
   ```
-##HTTP Response      
-**JSON object after update**
+####HTTP Response      
 ```json   
   [{      
     "OBJECTID":"25647",   
