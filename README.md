@@ -184,3 +184,10 @@ PUT <http://admin/password@galway.ie/parks/clareCountyParks.json>
   {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...} {...}
 ]       
   ```
+  
+##HTTP Requst by admin using DELETE method 
+DELETE <http://admin/password@galway.ie/parks/clareCountyParks.json> 
+####HTTP response DELETE clareCountyParks.json
+```json   
+ok:true      
+  ```
