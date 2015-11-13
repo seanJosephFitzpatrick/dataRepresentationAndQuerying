@@ -171,7 +171,7 @@ ok:true
   ```
   
 ##HTTP Requst by admin using PUT method 
-PUT <http://admin/password@galway.ie/parks/clareCountyParks.json> 
+PUT <http://admin/password@galway.ie/parks "Content-Type: application/json" -d @clareCountyParks.json> 
 ####HTTP PUT clareCountyParks.json
 ```json   
 [ 
