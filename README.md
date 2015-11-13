@@ -3,11 +3,11 @@
 ###Sean Fitzpatrick
 
 ## Introduction    
-This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie). This API will be tailored to the front end user that want to check the location, opening/closing hours and facilities of parks local to Galway city and county. Futhermore it will be tailored to the Galway city County Council for adding, deleting and updating park information throughout Galway city and County.
+This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie). This API will be tailored to the front end user that want to check the location, opening/closing hours and facilities of parks local to Galway city and county. Furthermore it will be tailored to the Galway city County Council for adding, deleting and updating park information throughout Galway city and County.
 
 ## About the data
 This dataset was received in CSV format, and was downloaded from [*Data.gov.ie*](https://data.gov.ie/dataset/parks-in-galway-city).
-The CSV file contains 29 rows that can be added to or removed from, the first being a header row with the names of each field. It contains 9 column.
+The CSV file contains 29 rows that can be added to or removed from, the first being a header row with the names of each field. It contains 9 column. Below is a list of all the field names and associated values. No value can be left **NULL** and must contain the correct **Data Types**.
 
 ##Table Field-Values
 
@@ -48,8 +48,8 @@ Code | Definition | Code | Definition
 
 
 ###Querying the Dataset.  
-The dataset can be queried using the  HTTP/1.1  methods and the URL. The HTTP/1.1  will will only recieve and send in JSON format. Below is an example of a HTTP/1.1  response where the JSON object containing the park name that the HTTP/1.1  method was querying.<http://galway.ie/parks/[Name]>  
-where you replace [Name] with the Name.  
+The dataset can be queried using the HTTP/1.1 methods and the URL. The HTTP/1.1 will only receive and send in JSON format. Below is an example of a HTTP/1.1 response where the JSON object containing the park name that the HTTP/1.1 method was querying.<http://galway.ie/parks/[Name]>  
+Where you replace [Name] with the Name.  
 <http://galway.ie/parks/ShantallaPark> 
 
 <!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->      
@@ -107,7 +107,7 @@ admin/password?username=USERNAME | POST
 ```
 
 
-##HTTP Requst by admin using GET method 
+##HTTP Request by admin using GET method 
 <!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->      
 ```HTTP/1.1    
 GET http://admin/password@galway.ie/parks/25647 
@@ -132,7 +132,7 @@ GET http://admin/password@galway.ie/parks/25647
           }, {...} ]       
   ```
   
-##HTTP Requst by admin using POST method 
+##HTTP Request by admin using POST method 
 <!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->      
 ```HTTP/1.1    
 POST http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed 
@@ -197,7 +197,7 @@ PUT http://admin/password@galway.ie/parks -H "Content-Type: application/json" -d
 ]       
   ```
   
-##HTTP Requst by admin using DELETE method 
+##HTTP Request by admin using DELETE method 
 <!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->     
 ```HTTP/1.1       
 DELETE http://admin/password@galway.ie/parks/clareCountyParks.json 
