@@ -30,7 +30,7 @@ Url | Component | Url | Component
 **80** | Port | **parks** | Path     
 **www** | Subdomain | **25647** | Parameter       
   
-##HTTP Request Methods  
+##HTTP/1.1 Methods  
 Method | Definitions
 --------|--------------------------------
 **GET** | Retrieve information from the server  
@@ -48,7 +48,7 @@ Code | Definition | Code | Definition
 
 
 ###Querying the Dataset.  
-The dataset can be queried using the  HTTP rerequest methods and the URL. The HTTP response will return to the user in JSON format. Below is an example of a HTTP response where the JSON object containing the park name that the HTTP request method was querying.<http://galway.ie/parks/[Name]>  
+The dataset can be queried using the  HTTP/1.1  methods and the URL. The HTTP/1.1  will will only recieve and send in JSON format. Below is an example of a HTTP/1.1  response where the JSON object containing the park name that the HTTP/1.1  method was querying.<http://galway.ie/parks/[Name]>  
 where you replace [Name] with the Name.  
 <http://galway.ie/parks/ShantallaPark>   
 
@@ -105,7 +105,9 @@ admin/password?username=USERNAME | POST
 
 
 ##HTTP Requst by admin using GET method 
-GET http://admin/password@galway.ie/parks/25647  
+```HTTP/1.1    
+GET http://admin/password@galway.ie/parks/25647 
+```   
 ####HTTP Response JSON    
 ```json   
   [ {...} {      
