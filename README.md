@@ -50,9 +50,12 @@ Code | Definition | Code | Definition
 ###Querying the Dataset.  
 The dataset can be queried using the  HTTP/1.1  methods and the URL. The HTTP/1.1  will will only recieve and send in JSON format. Below is an example of a HTTP/1.1  response where the JSON object containing the park name that the HTTP/1.1  method was querying.<http://galway.ie/parks/[Name]>  
 where you replace [Name] with the Name.  
-<http://galway.ie/parks/ShantallaPark>   
+<http://galway.ie/parks/ShantallaPark> 
 
-GET http://galway.ie/parks/ShantallaPark   
+<!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->      
+```HTTP/1.1     
+GET http://galway.ie/parks/ShantallaPark  
+```    
 ###HTTP Response JSON     
 ```json   
 [ {...} {      
@@ -105,6 +108,7 @@ admin/password?username=USERNAME | POST
 
 
 ##HTTP Requst by admin using GET method 
+<!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->      
 ```HTTP/1.1    
 GET http://admin/password@galway.ie/parks/25647 
 ```   
@@ -129,7 +133,10 @@ GET http://admin/password@galway.ie/parks/25647
   ```
   
 ##HTTP Requst by admin using POST method 
+<!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->      
+```HTTP/1.1    
 POST http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed 
+```   
 ####HTTP POST JSON    
 ```json   
   [{      
@@ -173,7 +180,10 @@ ok:true
   ```
   
 ##HTTP Requst by admin using PUT method 
+<!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->    
+```HTTP/1.1     
 PUT http://admin/password@galway.ie/parks -H "Content-Type: application/json" -d @clareCountyParks.json 
+```     
 ####HTTP PUT clareCountyParks.json
 ```json   
 [ 
@@ -188,7 +198,10 @@ PUT http://admin/password@galway.ie/parks -H "Content-Type: application/json" -d
   ```
   
 ##HTTP Requst by admin using DELETE method 
+<!--HTTP/1.1 is just to illustrate language - has no formatting use in markdown other than block of its own-->     
+```HTTP/1.1       
 DELETE http://admin/password@galway.ie/parks/clareCountyParks.json 
+```    
 ####HTTP Response
 ```json   
 ok:true      
