@@ -1,6 +1,6 @@
 # Galway Parks API
 ## Data Representation and Querying Project 2015
-###Sean Fitzpatrick
+###*Sean Fitzpatrick*
 
 ## Introduction    
 This project provides the design and documentation for the dataset "Parks in Galway" which is available at [Data.gov.ie](http://data.gov.ie). This API will be tailored to the front end user that want to check the location, opening/closing hours and facilities of parks local to Galway city and county. Furthermore it will be tailored to the Galway city County Council for adding, deleting and updating park information throughout Galway city and County.
