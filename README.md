@@ -52,7 +52,7 @@ The dataset can be queried using the  HTTP rerequest methods and the URL. The HT
 where you replace [Name] with the Name.  
 <http://galway.ie/parks/ShantallaPark>   
 
-GET <http://galway.ie/parks/ShantallaPark>   
+GET http://galway.ie/parks/ShantallaPark   
 ###HTTP Response JSON     
 ```json   
 [ {...} {      
@@ -105,7 +105,7 @@ admin/password?username=USERNAME | POST
 
 
 ##HTTP Requst by admin using GET method 
-GET <http://admin/password@galway.ie/parks/25647>  
+GET http://admin/password@galway.ie/parks/25647  
 ####HTTP Response JSON    
 ```json   
   [ {...} {      
@@ -127,7 +127,7 @@ GET <http://admin/password@galway.ie/parks/25647>
   ```
   
 ##HTTP Requst by admin using POST method 
-POST <http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed> 
+POST http://admin/password@galway.ie/parks/25647/?OPENINGHRs=Closed 
 ####HTTP POST JSON    
 ```json   
   [{      
@@ -171,7 +171,7 @@ ok:true
   ```
   
 ##HTTP Requst by admin using PUT method 
-PUT <http://admin/password@galway.ie/parks "Content-Type: application/json" -d @clareCountyParks.json> 
+PUT http://admin/password@galway.ie/parks -H "Content-Type: application/json" -d @clareCountyParks.json 
 ####HTTP PUT clareCountyParks.json
 ```json   
 [ 
@@ -186,7 +186,7 @@ PUT <http://admin/password@galway.ie/parks "Content-Type: application/json" -d @
   ```
   
 ##HTTP Requst by admin using DELETE method 
-DELETE <http://admin/password@galway.ie/parks/clareCountyParks.json> 
+DELETE http://admin/password@galway.ie/parks/clareCountyParks.json 
 ####HTTP Response
 ```json   
 ok:true      
